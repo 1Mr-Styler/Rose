@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Girls\\" : "classes"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "4.8.35"
+  }
+}
