@@ -8,16 +8,11 @@
 
 include __DIR__ . "/vendor/autoload.php";
 
-//$name = new Girls\Rose("James");
-$name = new Girls\Suzy("LeBron");
+$ro = new Girls\Rose(["James", ""]);
+$name = new Girls\Suzy(["LeBron", ""]);
 $iz = new Girls\Lizzy("HipHop");
 
-$a = function ($a) {
-    return $a*2;
-};
+$coll = new Libs\Collection($name, $ro);
 
-foreach ($name->adda([$name, 'callee']) as $m) {
-    print $m;
-}
 
-$name->juice();
+echo $name->juice();

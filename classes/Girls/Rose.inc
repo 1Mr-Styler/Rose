@@ -11,15 +11,16 @@ namespace Girls;
 
 class Rose
 {
-    private $name;
+    private $name, $mail;
 
     /**
      * Rose constructor.
-     * @param $name
+     * @param array $details
      */
-    public function __construct($name)
+    public function __construct(array $details)
     {
-        $this->name = $name;
+        $this->name = $details[0];
+        $this->mail = $details[1];
     }
 
     /**
@@ -38,9 +39,6 @@ class Rose
     public function adda(callable $ca)
     {
         $j = array();
-//        foreach ($mg as $ls) {
-//            $j[] = sprintf("\n%d from %s", $ls, $this->getName());
-//        }
         $ca();
         return $j;
     }
@@ -48,6 +46,19 @@ class Rose
     public function callee()
     {
         print "done";
+    }
+
+    public function getEmail()
+    {
+        return $this->mail;
+    }
+
+    public function fullD()
+    {
+        return [
+            "full_name" => $this->getName(),
+            "email"     => $this->getEmail()
+        ];
     }
 
 }

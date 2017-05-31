@@ -12,11 +12,20 @@ namespace Girls;
 class Lizzy
 {
 
+    public $name;
     /**
      * Lizzy constructor.
      */
     public function __construct($n)
     {
-        die($n . " is dead B");
+        $this->name = $n;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
     }
 }
