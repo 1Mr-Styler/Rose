@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Rose</title>
+    <title>Rose v0.5</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -38,7 +38,7 @@
 
 <div class="container">
     <div class="panel panel-default">
-        <div class="panel-heading">{$app} | Version: {$ver} | Last Updated {$last}</div>
+        <div class="panel-heading">{$app} | Version: {$ver}</div>
         <div class="panel-body">
             <!-- HISTORY CODE -->
             <ul class="treeview">

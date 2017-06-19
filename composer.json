@@ -1,11 +1,12 @@
 {
   "autoload": {
     "psr-4": {
-      "Girls\\" : "classes/Girls",
-      "Libs\\" : "classes/Libs"
+      "Girls\\": "classes/Girls",
+      "Libs\\": "classes/Libs"
     }
   },
   "require": {
-    "phpunit/phpunit": "4.8.35"
+    "phpunit/phpunit": "4.8.35",
+    "smarty/smarty": "~3.1"
   }
 }

@@ -9,9 +9,11 @@
 namespace Girls;
 
 
-class Rose
+use Libs\Collection;
+
+final class Rose
 {
-    private $name, $mail;
+    private $name, $mail, $id;
 
     /**
      * Rose constructor.
@@ -53,12 +55,27 @@ class Rose
         return $this->mail;
     }
 
-    public function fullD()
+    public function fullD(): array
     {
         return [
             "full_name" => $this->getName(),
-            "email"     => $this->getEmail()
+            "email" => $this->getEmail()
         ];
     }
 
+    use license;
+}
+
+trait license
+{
+
+    function setID($id)
+    {
+        $this->id = $id;
+    }
+
+    function getID()
+    {
+        return $this->id;
+    }
 }

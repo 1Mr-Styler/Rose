@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/smarty/smarty" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
     </content>
@@ -52,6 +53,7 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/vendor/smarty/smarty" />
           <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
         </CLASSES>
@@ -76,6 +78,7 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/vendor/smarty/smarty" />
           <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
         </SOURCES>

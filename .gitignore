@@ -1,2 +1,3 @@
 composer.lock
 vendor/
+gui/smarty/templates_c/
