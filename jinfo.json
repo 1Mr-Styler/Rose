@@ -1,0 +1,26 @@
+{
+  "App": "Meg",
+  "version": "1.3",
+  "verhist": {
+    "1_0": [
+      "2/11/17",
+      "Cant remember"
+    ],
+    "1_3": [
+      "6/04/17",
+      "Added New classes to overwrite existing ones",
+      "Deprecated previous classes",
+      "Implemented Composer and Namespaces"
+    ],
+    "1_4": [
+      "6/04/17",
+      "Converted existing PB files to use new classes",
+      "Changed NDB to a class"
+    ]
+  },
+  "used_in": {
+    "monaco": "/Applications/XAMPP/xamppfiles/htdocs/monaco/jinfo.json",
+    "evertrustonline": "/Applications/XAMPP/xamppfiles/htdocs/capitalx/jinfo.json",
+    "crystal-groups": "/Applications/XAMPP/xamppfiles/htdocs/coop/jinfo.json"
+  }
+}
